@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0047AB; 
+    color: white; 
+    font-family: Arial, sans-serif;
+}
+
+/* NAVIGATION BAR */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1c232;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #e0b222;
+}
+
+/* HEADER */
+header {
+    background-color: transparent; 
+    color: gold;
+    text-align: center;
+    padding: 40px;
+    font-size: 2.5em;
+    margin-top: 60px; 
+}
+
+/* MAIN CONTENT */
+main {
+    text-align: center;
+    max-width: 800px;
+    margin: 80px auto 20px auto;
+    font-size: 1.2em;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2); 
+    border-radius: 10px;
+}
+
+/* WOLVERINE IMAGE */
+.wolverine-image {
+    display: block;
+    max-width: 100%;
+    width: 500px;
+    margin: 20px auto;
+    border: 5px solid yellow;
+    border-radius: 10px;
+}
+
+/* IMAGE CAPTION */
+.image-caption {
+    text-align: center;
+    font-size: 0.9em;
+    color: white;
+    font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    background-color: black; 
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* LEFT SECTION */
+.left-section {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    width: 80%;
+    margin: 50px auto;
+    text-shadow: 1px 1px #000;
+    border-radius: 10px;
+}
+
+.left-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.lore-content {
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+    flex-wrap: wrap;
+}
+
+/* LORE IMAGE */
+.lore-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* INTRO SECTION */
+.intro-section {
+    background-color: rgb(255, 255, 255); 
+    padding: 20px;
+    width: 100%; 
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.intro-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+main {
+    display: block;
+    padding: 20px;
+}
+
+/* GAP BETWEEN SECTIONS */
+.gap {
+    height: 50px;
+}
+
+/* ABILITIES SECTION */
+.abilities-section {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px; 
+}
+
+.abilities-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* CONTACT SECTION */
+.contact-title {
+    font-size: 2em;
+    font-weight: bold; 
+    color: gold; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    text-shadow: 3px 3px 5px black;
+}
+
+.email-link {
+    font-size: 1.5em; 
+    font-weight: bold; 
+    color: #0047AB;
+    text-decoration: none; 
+    display: block; 
+    margin-top: 10px;
+}
+
+.email-link:hover {
+    color: gold; 
+    text-decoration: underline; 
+}

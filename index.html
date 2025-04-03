@@ -3,67 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Insert Title Here</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Wolverine Fan Page</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<style>
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #f1c232ff
-    }
-    
-    li {
-      float: left;
-    }
-    
-    li a {
-      display: block;
-      color: black;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
-    
-    li a:hover {
-      background-color: #f1c232ff
-    }
-    ul {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-    </style>
-    </head>
-    <body>
-    
-    <ul>
-      <li><a class="Bar fixed">Lore</a></li>
-      <li><a >Title</a></li>
-      <li><a >Abilities</a></li>
-      <li><a >Introduction</a></li>
-    </ul>
-
-    </body>
-    </html>
-    
-    
 <body>
-   
-    <header>
-        <h2> Im the best at what I do and what I do isnt very nice</h2>
+
+    <!-- Header Section -->
+    <header id="title">
         <h1>WOLVERINE</h1> 
-        
-    
     </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+    <ul>
+      <li><a class="Bar fixed" href="#lore">Lore</a></li>
+      <li><a href="#title">Title</a></li>
+      <li><a href="#Abilities">Abilities</a></li>
+      <li><a href="#Introduction">Introduction</a></li>
+    </ul>
+  </nav>
+    <!-- Main Content -->
     <main>
-        <p>Insert Introduction Here</p>
+      <img src="data:image/jpeg;base64,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" alt="Hugh Jackman as Wolverine" class="wolverine-image">
+      <p class="image-caption">
+          Wolverine’s appearance in <br> <b>Deadpool & Wolverine</b> being played by <b>Hugh Jackman</b>
+      </p>
+      <section, id="Introduction">
+        <h2>Introduction</h2>
+        <p>
+            This website is dedicated to the X-Man and popular superhero from the Marvel Comics franchise, Wolverine. 
+            Also known as Logan or his real name, James Howlett. He was originally an X-Man but then became an Avenger. 
+            He also appears in multiple movies and games all produced by either Marvel or its associates such as Disney or Fox.
+        </p>
+      </section>
+      <section, id="Lore">
+        <div class="left-section" id="lore">
+          <h2>LORE</h2>
+          <div class="lore-content">
+              <img src="https://wolverinefiles.com/wp-content/uploads/2011/02/wolverine-child.jpg" alt="Wolverine Image" class="lore-image">
+              <p>Wolverine, real name is James Howlett, was born in the 1800s in Canada. He grew up in a wealthy family, but his life took a dark turn when his father was killed. This triggered a transformation in young James, with his mutation activating, giving him access to a pair of bone claws, and he ran away from home, changing his name to Logan.
+
+                Logan wandered for years, trying to survive. He fought in wars and struggled with his emerging mutant powers. His life became worse when he was captured by a secret government program. They coated his bones and claws with adamantium, turning him into a dangerous weapon.
+    
+                Much of Logan's past is a blur due to memory loss, so he's often doesnt know of who he really is. He’s lost close people, battled inner demons, and wrestled with his animal-like nature. But, despite his troubled history, he found a purpose withen the x-men, a group of mutants dedicated to peaceful coexistence with humans.
+    
+                Logan’s healing ability makes him nalmost indestructible, but it’s his complex, tormented soul that makes him stand out. Though he’s been moulded by violence, he’s always searching for redemption, trying to do right in a world that often sees him as a danger rather than a person.</p>
+          </div>
+        </section>
+</div>
+<div class="gap"></div>
+
+<!-- ABILITIES SECTION -->
+<div class="abilities-section" id="Abilities">
+    <h2>ABILITIES</h2>
+
+    <p> Wolverine was originally born a mutant with two notable abilities. An amazing healing factor that stunted/ slowed his aging, his other significant ability/ power is his bone claws. 
+    </p>
+    <p>  
+      These claws are made entierly of bones and acts like a cart on a rail, launching from said rail out of wolverines hands in a set direction, this can cause a problem as if wolverine isnt clenching his hands in a fist when pushing out his claws the claws could pierce through other sections of his hand like his wrist.
+  </p>    
+  <p>
+    The bone claws were given further enhancement when Logan was drafted to participate in an experiment in which the strongest metal on the earth, adamantium, was graphted onto his entire skeleton, this includes his claws, Now sharpend and practically invinceble wolverine was an unstobale force.
+  </p>
+  <div class="gap"></div>
+  <b>
+  Some of his other abilities caused by his mutation are:
+  </b>
+  <b>
+    Enhanced Senses, Immunity to a large amount of substances considered harmful to humans, Increased stamina, speed and physical strength, The ability to surpress memories via his healing factor, to keep his mental state in check.
+  </b>
+  <div class="gap"></div>
+  <b>He also has sub-abilities caused by either his nature or his healing factor, these include:</b>
+  <b> Resistence to mind control, caused by his healing factor rooting out toxins from his body which includes telepaths, he can also enter a state refered to as "Barserker rage," in this state due to his feral nature he releases all his humanity and goes into astate of pure violence and rage with no self-control. </b>
+</div>
+
     </main>
+
+
+    <!-- Footer Section -->
     <footer>
-        <p>Start Footer Here</p>
-    </footer>
-</body>        
+      <p><span class="contact-title">CONTACT THE REAL WOLVERINE:</span>  
+      <a href="mailto:wolverine.howlett02@gmail.com" class="email-link">Wolverine.Logan@gmail.com</a></p>
+  </footer>
+</body>
 </html>
